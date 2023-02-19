@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col-2" style="width: 230px;height:40vhvh;display: flex;">
+        <div>
+            <a [routerLink]="['/home/home-base/personal-info']">Personal Info</a>
+        </div>
+        <div>
+            <a [routerLink]="['/home/home-base/skills']">Skills</a>
+        </div>
+    </div>
+    <div class="col-10" style="padding-left: 230px;height: 80vh;">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+
