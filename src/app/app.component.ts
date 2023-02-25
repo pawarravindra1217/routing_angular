@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 export class AppComponent {
   title = 'Training';
   constructor(private router: Router) {
+   
   }
 
   gotoDashboard() {
